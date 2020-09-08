@@ -19,7 +19,16 @@ export default function FriendsList(props) {
   return (
     <div className='list-friends container'>
       {/* 3- We need to loop over the data rendering a Friend as we go */}
-      {/* Each friend is going to need a `key` prop and also some other prop with data */}``
+      {
+        [
+          <div>friend 1</div>,
+          <div>friend 2</div>,
+          <div>friend 1</div>
+        ]
+      }
+
+
+      {/* Each friend is going to need a `key` prop and also some other prop with data */}
     </div>
   )
 }
