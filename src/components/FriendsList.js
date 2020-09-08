@@ -8,7 +8,7 @@ export default function FriendsList(props) {
   // there is an expectation that the data comes in
   // in the form of a prop called "list"
   // const list = props.list
-  const friends = props.friendsList
+  const friendsList = props.friendsList
 
   return (
     <div className='list-friends container'>
