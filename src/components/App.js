@@ -21,7 +21,7 @@ export default function App() {
   // changes the `married` from true to false and viceversa
   const changeStatus = id => {
     // def NOT event handler
-    setFriends()
+    setFriends(friends.map()/* a new array of friends, made off of the old one */)
   }
 
   // STRETCH - Make a helper function that returns
