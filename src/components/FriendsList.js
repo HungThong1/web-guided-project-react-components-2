@@ -22,10 +22,9 @@ export default function FriendsList(props) {
   
       {
         friendsList.map(friendObject => {
-          return <div>{friendObject.name}</div>
+          return <Friend />
         })
       }
-
 
       {/* Each friend is going to need a `key` prop and also some other prop with data */}
     </div>
