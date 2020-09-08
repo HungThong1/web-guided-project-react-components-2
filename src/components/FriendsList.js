@@ -26,7 +26,7 @@ export default function FriendsList(props) {
             <Friend
               key={friendObject.id}
               friend={friendObject}
-              
+              toggleCivil={toggleCivilStatus}
             />
           )
         })

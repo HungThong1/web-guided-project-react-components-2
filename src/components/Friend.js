@@ -3,7 +3,7 @@ import PetsList from './PetsList'
 
 export default function Friend(props) {
   // 1- What does a Friend need?
-  const { friend } = props
+  const { friend,  } = props
   const { name, age, married, hobbies, pets } = friend
 
   return (
