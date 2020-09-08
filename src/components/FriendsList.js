@@ -21,11 +21,9 @@ export default function FriendsList(props) {
       {/* 3- We need to loop over the data rendering a Friend as we go */}
   
       {
-        [
-          <div>friend 1</div>,
-          <div>friend 2</div>,
-          <div>friend 3</div>
-        ]
+        friendsList.map(friendObject => {
+          return <div></div>
+        })
       }
 
 
