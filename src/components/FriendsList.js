@@ -22,7 +22,7 @@ export default function FriendsList(props) {
   
       {
         friendsList.map(friendObject => {
-          return <div></div>
+          return <div>{friendObject.name}</div>
         })
       }
 
