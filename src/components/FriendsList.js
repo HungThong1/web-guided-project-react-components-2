@@ -10,6 +10,7 @@ export default function FriendsList(props) {
   // const list = props.list
   const friendsList = props.friendsList
   const foo = props.foo
+  const ladyGaga = props.ladyGaga
 
   return (
     <div className='list-friends container'>
