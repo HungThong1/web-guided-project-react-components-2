@@ -3,7 +3,7 @@ import PetsList from './PetsList'
 
 export default function Friend(props) {
   // 1- What does a Friend need?
-  const { friend,  } = props
+  const { friend, toggleCivil } = props
   const { name, age, married, hobbies, pets } = friend
 
   return (
@@ -16,7 +16,7 @@ export default function Friend(props) {
           <p>Age: {age}</p>
 
           <p>Married: {married ? 'yes' : 'no'}
-            <button>change</button>
+            <button onClick={event => toggleCivil()}>change</button>
           </p>
           <div>Likes:
             <ul>
