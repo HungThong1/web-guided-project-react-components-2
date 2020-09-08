@@ -14,7 +14,7 @@ export default function FriendsList(props) {
   // const ladyGaga = props.ladyGaga
 
   // WITH DESTRUCTURING
-  const { friendsList, ladyGaga, foo } = props
+  const { friendsList, ladyGaga, foo, changeStatus } = props
 
   return (
     <div className='list-friends container'>
