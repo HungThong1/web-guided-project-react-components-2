@@ -8,15 +8,17 @@ export default function FriendsList(props) {
   // there is an expectation that the data comes in
   // in the form of a prop called "list"
   // const list = props.list
-  const friendsList = props.friendsList
-  const foo = props.foo
-  const ladyGaga = props.ladyGaga
+  // const friendsList = props.friendsList
+  // const foo = props.foo
+  // const ladyGaga = props.ladyGaga
+  
 
   return (
     <div className='list-friends container'>
       {/* 3- We need to loop over the data rendering a Friend as we go */}
       {/* Each friend is going to need a `key` prop and also some other prop with data */}
-            }
+      {props.foo}
+      {props.ladyGaga}
     </div>
   )
 }
