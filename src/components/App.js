@@ -26,7 +26,7 @@ export default function App() {
       // If id matches the one on the curr friend, return a new friend with that change
       // otherwise return the friend unchanged
       if (id === fr.id) {
-        return {}
+        return { ...fr, married: !fr.married }
       }
       return fr
     })/* a new array of friends, made off of the old one */)
