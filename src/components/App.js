@@ -46,8 +46,8 @@ export default function App() {
       {
         [
           <div>Foo</div>,
-          <div>Foo</div>,
-          <div>Foo</div>,
+          <div>Bar</div>,
+          <div>Baz</div>,
         ]
       }
     </div>
