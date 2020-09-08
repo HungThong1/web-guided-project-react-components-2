@@ -42,7 +42,7 @@ export default function App() {
       <Search />
       {/* 7- Render the FriendsList component */}
       {/* What prop/props does FriendsList need? */}
-      <FriendsList friendsList={friends} foo='bar' ladyGaga={somevalue} />
+      <FriendsList friendsList={friends} foo='bar' ladyGaga='the best' />
     </div>
   )
 }
