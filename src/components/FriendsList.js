@@ -19,11 +19,12 @@ export default function FriendsList(props) {
   return (
     <div className='list-friends container'>
       {/* 3- We need to loop over the data rendering a Friend as we go */}
+  
       {
         [
           <div>friend 1</div>,
           <div>friend 2</div>,
-          <div>friend 1</div>
+          <div>friend 3</div>
         ]
       }
 
