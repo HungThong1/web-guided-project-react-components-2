@@ -23,7 +23,12 @@ export default function App() {
     // def NOT event handler
     setFriends(friends.map(fr => {
       // return a NEW OBJECT with the married toggled!!!!!!
-      // If id matches the one on the curr friend, return a new friend with that 
+      // If id matches the one on the curr friend, return a new friend with that change
+      // otherwise return the friend unchanged
+      if (id === fr.id) {
+        return {}
+      }
+      return fr
     })/* a new array of friends, made off of the old one */)
   }
 
