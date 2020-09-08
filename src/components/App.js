@@ -6,7 +6,7 @@ import FriendsList from './FriendsList'
 import Search from './Search'
 // 2- Import the dummy data that will power the application.
 // (Tomorrow we'll fetch the data from an API instead.)
-import dummyData from '../dummy-data/friends'
+import dummyData from '../dummy-data/friends' // array of objects
 
 export default function App() {
   // 3- Initialize a slice of state to keep track of the data
