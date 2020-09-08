@@ -12,14 +12,17 @@ export default function FriendsList(props) {
   // const friendsList = props.friendsList
   // const foo = props.foo
   // const ladyGaga = props.ladyGaga
+
+  // WITH DESTRUCTURING
   const { friendsList, ladyGaga, foo } = props
 
   return (
     <div className='list-friends container'>
       {/* 3- We need to loop over the data rendering a Friend as we go */}
       {/* Each friend is going to need a `key` prop and also some other prop with data */}
-      {props.foo}
-      {props.ladyGaga}
+
+      {foo}
+      {ladyGaga}
     </div>
   )
 }
