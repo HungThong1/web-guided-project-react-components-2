@@ -9,13 +9,13 @@ export default function Friend(props) {
   return (
     <div className='friend-friends container'>
       {/* 2- Fix the JSX so it displays real info coming into the component */}
-      <h2>Jessica</h2>
+      <h2>{name}</h2>
 
       <div className='friend-info'>
         <div >
-          <p>Age: 26</p>
+          <p>Age: {age}</p>
 
-          <p>Married: yes <button>change</button></p>
+          <p>Married: {married} <button>change</button></p>
           <div>Likes:
             <ul>
               {/* 3- Loop over the friend's hobbies and generate <li/> elements as you go */}
