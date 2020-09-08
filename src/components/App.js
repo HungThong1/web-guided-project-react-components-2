@@ -11,6 +11,7 @@ import dummyData from '../dummy-data/friends' // array of objects
 export default function App() {
   // 3- Initialize a slice of state to keep track of the data
   // using the dummy data as the initial value of the slice of state
+  const [friends, setFriends] = useState(dummyData)
 
   // 4- Initialize a slice to keep track of the value of the search box
   // using an empty string as the initial value of the slice
