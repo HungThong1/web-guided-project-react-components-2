@@ -3,6 +3,8 @@ import PetsList from './PetsList'
 
 export default function Friend(props) {
   // 1- What does a Friend need?
+  const friend = props.friend
+  const { friend } = props
 
   return (
     <div className='friend-friends container'>
