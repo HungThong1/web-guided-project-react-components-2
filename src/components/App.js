@@ -46,6 +46,9 @@ export default function App() {
         friendsList={friends}
         ladyGaga='the best'
         foo='bar'
+        fancyProp={{
+          fri
+        }}
       />
     </div>
   )
